@@ -13,7 +13,7 @@ The program also uses a python url validator:
 `pip install validators`
 
 ## QRcode-decoder: Dependencies
-This program requier OpenCV:
+This program requires OpenCV:
 
 `pip install opencv-python`
 
@@ -22,7 +22,8 @@ This program requier OpenCV:
 `python3 qrcode_maker.py`
 
 ```
-To exit, type 'exit' og 'quit'
+To exit, type: 'exit' | 'quit' | 'q' | '-1' |
+
 Url of the website you want a QR-code for: https://www.youtube.com/
 ```
 
@@ -30,7 +31,8 @@ Url of the website you want a QR-code for: https://www.youtube.com/
 `python3 qrcode_decoder.py`
 
 ```
-To exit, type 'exit' og 'quit'
+To exit, type: 'exit' | 'quit' | 'q' | '-1' |
+
 Filename of the QR-code you want to decode: youtubeQR.png
 Decoded text is:  https://www.youtube.com/
 ```
